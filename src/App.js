@@ -25,12 +25,59 @@ function App() {
           <div className='footer-content'>
             <div className='footer-links-container'>
               <ul className='footer-links'>
-                <li className='footer-link'></li>
-                <li className='footer-link'></li>
-                <li className='footer-link'></li>
-                <li className='footer-link'></li>
-                <li className='footer-link'></li>
-                <li className='footer-link'></li>
+                <li className='footer-link'>
+                  <a href='#'>Virtual Appointments</a>
+                </li>
+                <li className='footer-link'>
+                  <a href='#'>Product Quiz</a>
+                </li>
+                <li className='footer-link'>
+                  <a href='#'>FAQ</a>
+                </li>
+                <li className='footer-link'>
+                  <a href='#'>Conact</a>
+                </li>
+                <li className='footer-link'>
+                  <a href='#'>Terms</a>
+                </li>
+                <li className='footer-link'>
+                  <a href='#'>Privacy</a>
+                </li>
+              </ul>
+              <ul className='footer-links'>
+                <li className='footer-link'>
+                  <a href='#'>Action Plan</a>
+                </li>
+                <li className='footer-link'>
+                  <a href='#'> Craftsmanship</a>
+                </li>
+                <li className='footer-link'>
+                  <a href='#'>Stockist</a>
+                </li>
+                <li className='footer-link'>
+                  <a href='#'>Press</a>
+                </li>
+                <li className='footer-link'>
+                  <a href='#'>Reviews</a>
+                </li>
+              </ul>
+              <ul className='footer-links'>
+                <li className='footer-link'>
+                  <a href='#'>Wholesale</a>
+                </li>
+                <li className='footer-link'>
+                  <a href='#'>Shipping</a>
+                </li>
+                <li className='footer-link'>
+                  <a href='#'>Returns</a>
+                </li>
+              </ul>
+              <ul className='footer-links'></ul>
+              <ul className='footer-links'></ul>
+              <ul className='footer-links'>
+                <li className='footer-link'>
+                  <a href='#'>Log In / Create Account</a>
+                </li>
               </ul>
             </div>
           </div>
