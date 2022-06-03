@@ -80,6 +80,22 @@ function App() {
                 </li>
               </ul>
             </div>
+            <div className='footer-subscribe-container'>
+              <div className='footer-subscribe'>
+                <label for='Email' className='footer-subscribe-title'>Email</label>
+                <form method='post' action='/contact#contact-form' acceptCharset='UTF=8' className='contact-form' novalidate='novalidate'>
+                  <div className='footer-subscribe-input'>
+                    <input type='email' name='contact[email]' id='Email' className='newsletter-input' value='' placeholder autocorrect='off' autocapitalize='off' />
+
+                    <div className='footer-subscribe-input-btn'>
+                      <button type='submit' class='btn footer-subscribe-btn' name='commit' id='Subscribe'>
+                        Sign up for our newsletter
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
 

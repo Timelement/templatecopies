@@ -8,13 +8,15 @@ body {
 }
 .footer {
   padding: 2.5rem 1.25rem;
+  width: 100%;
 }
 .footer-container {
   display: block;
 }
 
 .footer-content {
-  display: block;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-links-container {
@@ -22,7 +24,7 @@ body {
   align-items: flex-start;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 100%;
+  width: 50%;
 }
 
 .footer-links {
@@ -56,4 +58,56 @@ body {
    margin-inline-start: 0px;
    margin-inline-end: 0px;
    padding-inline-start: 40px;
+ }
+
+ form {
+   display: block;
+ }
+
+ .footer-subscribe-container {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+
+ }
+
+ .footer-subscribe-title {
+   font-size: 1.125rem;
+   line-height: 1;
+   text-align: left;
+   margin-bottom: 0.625rem;
+   display: block;
+ }
+
+
+ .footer-subscribe-input .newsletter-input{
+   background-color: transparent;
+   border: none;
+   border-bottom: #282828 solid 0.125rem;
+ }
+
+ .footer-subscribe-btn {
+   background-color: transparent;
+   border: none;
+   color:#282828;
+   font-size: 1.125rem;
+   font-family: Futura STD, Arial, sans-serif;
+   font-weight: 400;
+   line-height: 2.28;
+   letter-spacing: .033em;
+   padding: 0;
+ }
+
+ input {
+  font-family: Futura STD, Arial, sans-serif;
+  margin-bottom: 1.25rem;
+  padding: 0.625rem;
+  color: #282828;
+  border-radius: 0;
+  width: 100%;
+ }
+
+ input:focus {
+   border: none;
+   outline: none;
  }
